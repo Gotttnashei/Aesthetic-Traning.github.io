@@ -780,3 +780,138 @@ button {
   top: -10px;
   right: -10px;
 }
+
+
+
+.item-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.item-card:hover {
+  transform: scale(1.03);
+}
+
+.item-img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.item-title {
+  font-size: 1.4rem;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.item-price {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.btn-ver {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-ver:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.item-detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.item-detail-img {
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.3);
+}
+
+.item-detail-info {
+  max-width: 500px;
+}
+
+.item-detail-price {
+  font-size: 1.5rem;
+  color: orange;
+  margin: 20px 0;
+}
+
+.item-count {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contador-controles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.contador-controles button {
+  background-color: orange;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-agregar {
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-agregar:hover {
+  background-color: white;
+}
+
+.not-found {
+  text-align: center;
+  padding: 60px;
+  color: white;
+  background-color: #1a1a1a;
+}
+
+.not-found h2 {
+  font-size: 2rem;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.not-found a {
+  color: orange;
+  text-decoration: underline;
+}

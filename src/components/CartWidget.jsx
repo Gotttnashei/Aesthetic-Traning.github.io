@@ -4,11 +4,11 @@ const CartWidget = () => {
   return (
     <div className="cart-widget">
       <img
-        src="/assets/img/carticon.png" // asegurate de tener esta imagen en /public/assets/img/
+        src="/assets/img/carticon.png" 
         alt="Carrito"
         style={{ width: '30px', height: '30px' }}
       />
-      <span className="cart-count">0</span> {/* podés conectar esto con lógica más adelante */}
+      <span className="cart-count">0</span> {}
     </div>
   );
 };

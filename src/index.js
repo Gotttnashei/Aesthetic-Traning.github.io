@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App';
-import { CartProvider } from './context/CardContext'; 
+import { CartProvider } from './context/CartContext'; 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

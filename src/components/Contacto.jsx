@@ -33,7 +33,7 @@ const Contacto = () => {
                 <p>bazzano.maximo</p>
               </div>
               <div className="redes-item">
-                <img src="/assets/img/twitch.PNG.png" alt="Twitch" />
+                <img src="/assets/img/twitch.jpg" alt="Twitch" />
                 <p>bazzano.maximo</p>
               </div>
             </div>
