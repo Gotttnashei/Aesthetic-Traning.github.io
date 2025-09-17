@@ -1,6 +1,6 @@
-/* ============================= */
-/* 🌐 ESTILOS GLOBALES           */
-/* ============================= */
+
+/*  ESTILOS GLOBALES           */
+
 * {
   margin: 0;
   padding: 0;
@@ -27,9 +27,9 @@ button {
   cursor: pointer;
 }
 
-/* ============================= */
-/* 🧭 NAVBAR + CARRITO           */
-/* ============================= */
+
+/*  NAVBAR + CARRITO           */
+
 .navbar {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 15px 30px;
@@ -67,9 +67,8 @@ button {
 }
 
 
-/* ============================= */
-/* 🏠 HERO SECTION               */
-/* ============================= */
+/*  HERO SECTION               */
+
 .hero {
   height: 100vh;
   background-image: ('/assets/img/fondoinicio.jpg');
@@ -89,9 +88,8 @@ button {
   text-align: center;
 }
 
-/* ============================= */
-/* 💪 SECCIÓN CTA CON AMOR       */
-/* ============================= */
+/*  SECCIÓN CTA CON AMOR       */
+
 .cta-section {
   background: linear-gradient(to bottom, #000000, #0a0a0a);
   padding: 100px 20px;
@@ -140,9 +138,9 @@ button {
   transform: scale(1.05);
 }
 
-/* ============================= */
-/* 🧾 FOOTER                     */
-/* ============================= */
+
+/*  FOOTER                     */
+
 .footer {
   background-color: rgba(0, 0, 0, 0.9);
   padding: 20px 0;
@@ -163,9 +161,9 @@ button {
   color: #ccc;
 }
 
-/* ============================= */
-/* 📦 ITEM LIST CONTAINER        */
-/* ============================= */
+
+/*  ITEM LIST CONTAINER        */
+
 .itemlist-section {
   padding: 80px 20px;
   background-color: rgba(0, 0, 0, 0.85);
@@ -199,9 +197,8 @@ button {
 
 
 
-/* ============================= */
-/* 🎨 ANIMACIONES                */
-/* ============================= */
+/*  ANIMACIONES                */
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -225,9 +222,9 @@ button {
   }
 }
 
-/* ============================= */
-/* 📱 RESPONSIVE (BÁSICO)        */
-/* ============================= */
+
+/*  RESPONSIVE (BÁSICO)        */
+
 @media (max-width: 768px) {
   .hero-title {
     font-size: 4rem;
@@ -307,9 +304,9 @@ button {
   /* ...otros estilos */
 }
 
-/* ============================= */
-/* 🏋️ PLANES DE ENTRENAMIENTO   */
-/* ============================= */
+
+/*  PLANES DE ENTRENAMIENTO   */
+
 .planes-container {
   display: flex;
   justify-content: center;
@@ -364,9 +361,9 @@ button {
   color: orange;
   font-style: italic;
 }
-/* ============================= */
-/* 💥 TÍTULO PRINCIPAL DE PLANES */
-/* ============================= */
+
+/*  TÍTULO PRINCIPAL DE PLANES */
+
 .planes-title {
   font-size: 3rem;
   color: orange;
@@ -384,9 +381,9 @@ button {
 
 
 
-/* ============================= */
-/* 🔥 TÍTULOS DE PLANES          */
-/* ============================= */
+
+/*  TÍTULOS DE PLANES          */
+
 .plan h2 {
   font-size: 1.8rem;
   color: orange;
@@ -413,9 +410,9 @@ button {
 
 
 
-/* ============================= */
-/* 🧡 BOTÓN PERSONALIZADO        */
-/* ============================= */
+
+/*  BOTÓN PERSONALIZADO        */
+
 .btn-custom {
   margin-top: 15px;
   padding: 12px 24px;
@@ -434,9 +431,9 @@ button {
   transform: scale(1.05);
 }
 
-/* ============================= */
-/* 📱 RESPONSIVE                 */
-/* ============================= */
+
+/*  RESPONSIVE                 */
+
 @media (max-width: 768px) {
   .planes-container {
     flex-direction: column;
@@ -447,8 +444,8 @@ button {
     width: 90%;
   }
 }
-/* ============================= */
-/* 🌟 animaxcion             */
+
+/*  animaxcion             */
 
 @keyframes fadeIn {
   0% {
@@ -478,9 +475,8 @@ button {
 }
 
 
-/* ============================= */
-/* 🏋️ PLANES HERO               */
-/* ============================= */
+/*  PLANES HERO               */
+
 .planes-hero {
   background-color: black;
   padding: 80px 20px 40px;
@@ -502,9 +498,9 @@ button {
   margin-bottom: 40px;
 }
 
-/* ============================= */
-/* 🧾 TARJETAS DE PLANES         */
-/* ============================= */
+
+/*  TARJETAS DE PLANES         */
+
 .planes-container {
   display: flex;
   justify-content: center;
@@ -572,9 +568,9 @@ button {
   transform: scale(1.05);
 }
 
-/* ============================= */
-/* 📱 RESPONSIVE                 */
-/* ============================= */
+
+/* RESPONSIVE                 */
+
 @media (max-width: 768px) {
   .planes-container {
     flex-direction: column;
@@ -595,9 +591,9 @@ button {
 }
 
 
-/* ============================= */
-/* 💌 CONTACTO                   */
-/* ============================= */
+
+/*  CONTACTO                   */
+
 .contact-section {
   background: linear-gradient(to bottom right, #0a0a0a, #1a1a1a);
   padding: 80px 20px;
@@ -690,9 +686,9 @@ button {
 }
 
 
-/* ============================= */
-/* 🧠 SOBRE MÍ                   */
-/* ============================= */
+
+/*  SOBRE MÍ                   */
+
 .sobremi-section {
   background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
   padding: 100px 20px;
